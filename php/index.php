@@ -43,13 +43,13 @@
     <h1>Melbourne House Price Prediction</h1>
 
     <form action="index.php" method="post">
-        <label for="rooms">Rooms: </label>
-        <input type="text" name="rooms" placeholder="Number of rooms">
+        <label for="rooms">Bedrooms: </label>
+        <input type="text" name="rooms" placeholder="Number of bedrooms">
         <br>
-        <label for="distance">Distance: </label>
+        <label for="distance">Distance from CBD: </label>
         <input type="text" name="distance" placeholder="Distance from CBD (km)">
         <br>
-        <label for="type">Type: </label>
+        <label for="type">Type od property: </label>
         <input type="radio" name="type" value="house">House
         <input type="radio" name="type" value="townhouse">Townhouse
         <input type="radio" name="type" value="unit">Unit
